@@ -1,0 +1,8 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 10px coral;
+    border-style: double;
+    border-radius: 2% 50% 50% 2%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimension CSS</title>
+    <style>
+        .dim1{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .dim2{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+
+        span{
+            height: 20%;
+            width: 20%;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .dim3{
+            height: inherit;
+            width: 20%;
+            background-color: red;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dim1">
+        <span>Helloo</span>
+    </div>
+    <br/>
+    <div class="dim2">
+        <span class="dim3">Hello</span>
+    </div>
+</body>
+</html>
