@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimension CSS</title>
     <style>
-        .dim1{
+        /* .dim1{
             width: 200px;
             height: 200px;
             background-color: aqua;
@@ -30,17 +30,43 @@
             width: 20%;
             background-color: red;
             display: inline-block;
+        } */
+
+        html{
+            height: 100%;
+        }
+
+        body{
+            height: 100%;
+        }
+
+        .dim{
+            background-color: burlywood;
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            padding: 30px;
+            border: 100px black;
+            border-style: groove ;
+            
+        }
+        .dim2{
+            background-color: aqua;
+            height: 30%;
+            width: 30%;
+            position: absolute;
+            left: 480px;
         }
 
     </style>
 </head>
 <body>
-    <div class="dim1">
-        <span>Helloo</span>
+    <div class="dim">
+        Hi
     </div>
-    <br/>
     <div class="dim2">
-        <span class="dim3">Hello</span>
+        <!-- 10+100+30+200 -->
+
     </div>
 </body>
 </html>
